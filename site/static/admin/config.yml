@@ -80,7 +80,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "En tête", name: heading, widget: string}
               - {label: Texte, name: text, widget: text}
               - {label: Image, name: imageUrl, widget: image}
-      - file: "site/content/administration/_etat-civile.md"
+      - file: "site/content/administration/etat-civile.md"
         label: "Pages etat civile"
         name: "etat-civile"
         fields:
