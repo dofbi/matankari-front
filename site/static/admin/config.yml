@@ -94,9 +94,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Titre, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: "Corps", name: "body", widget: "markdown"}
-       - file: "site/content/mairie/conseillers.md"
-        label: "Pages conseillers"
-        name: "conseillers"
+       - file: "site/content/mairie/conseiller.md"
+        label: "Pages conseiller"
+        name: "conseiller"
         fields:
           - {label: Titre, name: title, widget: string}
           - {label: Image, name: image, widget: image}
